@@ -1,0 +1,50 @@
+body, html, body, * {
+  margin: 0px;
+  padding: 0px;
+  border: 0; }
+
+#container {
+  width: 300px;
+  height: 250px;
+  background: url(../img/bg.jpg);
+  background-size: 300px 250px;
+  overflow: hidden;
+  cursor: pointer;
+  top: 0px;
+  left: 0px; }
+  #container > div {
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+  #container img {
+    width: 300px;
+    height: 250px; }
+
+#chromeCover {
+  width: 300px;
+  height: 250px;
+  background: #FFFFFF; }
+
+#shimmer {
+  position: absolute;
+  background: url(../img/shimmer.png) no-repeat;
+  background-size: 74px 25px;
+  background-position: -70px 0px;
+  width: 102px;
+  height: 25px;
+  top: 200px;
+  left: 180px; }
+
+#border {
+  width: 298px;
+  height: 248px;
+  border: 1px solid #999999;
+  background-color: transparent; }
+
+#shield {
+  overflow: hidden;
+  width: 300px;
+  height: 250px; }
+  #shield canvas {
+    position: absolute;
+    left: 0px; }

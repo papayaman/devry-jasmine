@@ -1,0 +1,62 @@
+$document_width : 300px;
+$document_height : 250px;
+
+body, html, body, * {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+
+#container {
+	width: $document_width;
+	height: $document_height;
+	background: url(../img/bg.jpg);
+	background-size: $document_width $document_height;
+	overflow: hidden;
+	cursor: pointer;
+	top: 0px;
+	left: 0px;
+	> div {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	img {
+		width: $document_width;
+		height: $document_height;
+	}
+}
+
+#chromeCover {
+	width: $document_width;
+	height: $document_height;
+	background: #FFFFFF;
+}
+
+#shimmer {
+	position: absolute;
+	background: url(../img/shimmer.png) no-repeat;
+	background-size: 74px 25px;
+	background-position: -70px 0px;
+	width: 102px;
+	height: 25px;
+	top: 200px;
+	left: 180px;
+}
+
+#border {
+	width: $document_width - 2px;
+	height: $document_height - 2px;
+	border: 1px solid #999999;
+	background-color: rgba(0,0,0,0);
+}
+
+#shield {
+	overflow: hidden;
+	width: $document_width;
+	height: $document_height;
+	canvas {
+		position: absolute;
+		left: 0px;
+	}
+}

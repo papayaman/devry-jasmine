@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<title>Devry DOP</title>
+	<link rel="stylesheet" href="code/style-min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/CSSPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/easing/EasePack.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenLite.min.js"></script>
+	<script>
+		/* globals console */ var clickTag = ""; console.log(clickTag);
+	</script>
+</head>
+<body>
+	<a id="clickScreen" href="javascript:window.open(window.clickTag);" target="_blank" >
+	<div id="container">
+		<div id="shield_ghost"><img src="img/shieldghost.png" /></div>
+		<div id="person"><img src="img/hero.jpg" alt=""></div>
+		
+		<div id="shield">
+			<canvas id="shield_canvas"> </canvas>	
+		</div>
+
+		<!--COPY-->
+		<div class="copy"><img src="copy/copy_01.png" /></div>
+		<div class="copy"><img src="copy/copy_02.png" /></div>
+		<div class="copy"><img src="copy/copy_03.png" /></div>
+
+		<!--LOGO-->
+		<div id="logo" ><img src="img/logo.png" alt=""></div>
+		<div id="lockup" ><img src="img/lockup.png" /></div>
+
+		<!--CTA-->
+		<div id="cta">
+			<img src="img/cta.png" />
+			<div id="shimmer" ></div>
+		</div>
+
+		<div id="border"></div>
+		<div id="chromeCover"></div>
+	</div><!--container-ends-->
+	</a>
+
+	<script type="text/javascript" src="_src/_script.js"></script>
+</body>
+</html>
